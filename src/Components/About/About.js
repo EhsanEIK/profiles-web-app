@@ -8,7 +8,7 @@ const About = () => {
             {/* part-01 */}
             <div className='md:flex grid grid-cols-5 mt-[2.5rem] md:mx-[2.5rem] mx-[1.5rem]'>
                 <div>
-                    <img src={logo} alt="logo" className='lg:w-[9.375rem] lg:h-[9.375rem] w-16 h-16' />
+                    <img src={logo} alt="logo" className='lg:w-[9.375rem] lg:h-[9.375rem] w-16 h-16 md:mt-0 mt-2' />
                 </div>
                 <div className='md:flex col-span-4 md:ml-[2.5rem] ml-[1rem]'>
                     <div>
@@ -51,8 +51,8 @@ const About = () => {
             </div>
             {/* part-03 */}
             <div className='my-[2.5rem] mx-[2.5rem]'>
-                <h1 className='font-medium text-[1.438rem]'>About Us</h1>
-                <p className='font-medium text-[1.25rem] text-[#878787]'>Welcome to our happy meals store and bring your families and friends along and enjoy exciting offers !!!</p>
+                <h1 className='font-medium md:text-[1.438rem] text-xl'>About Us</h1>
+                <p className='font-medium md:text-[1.25rem] text-base text-[#878787]'>Welcome to our happy meals store and bring your families and friends along and enjoy exciting offers !!!</p>
             </div>
         </section>
     );
