@@ -37,15 +37,15 @@ const About = () => {
                 </div>
             </div>
             {/* part-02 */}
-            <div className='lg:flex mt-[2.5rem] mx-[2.5rem] pl-10'>
+            <div className='flex md:bg-white bg-slate-100 rounded-xl mt-[2.5rem] mx-[2.5rem] md:pl-10 md:p-0 p-7'>
                 <div>
-                    <h1 className='font-semibold text-[1.938rem]'>52</h1>
-                    <p className='font-normal text-[1.125rem]'>Total Businesses</p>
+                    <h1 className='font-semibold md:text-[1.938rem] text-xl'>52</h1>
+                    <p className='font-normal md:text-[1.125rem] text-base'>Total Businesses</p>
                 </div>
-                <div className="divider-x w-[0.5px] bg-[#C4BDFF] ml-[152px] mr-[30px]"></div>
+                <div className="divider-x w-[0.5px] h-[60px] bg-[#ccc6ff] md:ml-[152px] md:mr-[30px] mx-5"></div>
                 <div>
-                    <h1 className='font-semibold text-[1.938rem]'>52</h1>
-                    <p className='font-normal text-[1.125rem]'>Total views/month</p>
+                    <h1 className='font-semibold md:text-[1.938rem] text-xl'>52</h1>
+                    <p className='font-normal md:text-[1.125rem] text-base'>Total views/month</p>
                 </div>
                 <div></div>
             </div>
