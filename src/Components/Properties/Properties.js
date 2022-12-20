@@ -3,7 +3,7 @@ import Cards from '../Cards/Cards';
 
 const Properties = () => {
     return (
-        <section className='container pl-[82px] pr-4 mt-[450px]'>
+        <section className='container md:pl-[82px] md:pr-4 mt-[450px]'>
             <div className='lg:flex justify-between mb-10'>
                 <h1 className='text-[1.875rem] font-semibold text-[#423D74]'>Properties</h1>
                 <button className='flex border-[1px] border-[#B4B4B4] rounded-[10px] py-3 px-[18px]'>

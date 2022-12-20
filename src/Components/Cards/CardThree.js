@@ -4,7 +4,7 @@ import bell from '../../assets/images/bell.png';
 
 const CardThree = () => {
     return (
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div className="card card-compact lg:w-96 w-auto bg-base-100 shadow-xl">
             <figure><img src={dentist} alt="Dentist" /></figure>
             <div className="card-body">
                 <h3 className="text-xl text-[#7065F0] font-semibold">Dentist</h3>

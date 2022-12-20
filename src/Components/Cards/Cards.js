@@ -5,7 +5,7 @@ import CardTwo from './CardTwo';
 
 const Cards = () => {
     return (
-        <div className='grid grid-cols-3 gap-8'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8  md:mx-0 mx-5'>
             <CardOne></CardOne>
             <CardTwo></CardTwo>
             <CardThree></CardThree>
