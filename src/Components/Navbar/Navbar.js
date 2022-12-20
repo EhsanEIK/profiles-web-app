@@ -18,13 +18,13 @@ const Navbar = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link to='/' className="normal-case font-semibold text-[2.188rem]" style={{ color: '#262064' }}>Leads4Needs</Link>
+                    <Link to='/' className="normal-case font-semibold md:text-[2.188rem] text-2xl" style={{ color: '#262064' }}>Leads4Needs</Link>
                 </div>
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal px-1 hidden lg:flex">
                         {menuItems}
                     </ul>
-                    <button className="text-white px-12 py-3" style={{
+                    <button className="text-white md:px-12 md:py-3 px-5 py-2" style={{
                         background: "#7065F0", borderRadius: "10px"
                     }}>Log In</button>
                 </div>
