@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div></div>
             </div>
-            <div className='mt-[2.5rem] mx-[2.5rem]'>
+            <div className='my-[2.5rem] mx-[2.5rem]'>
                 <h1 className='font-medium text-[1.438rem]'>About Us</h1>
                 <p className='font-medium text-[1.25rem] text-[#878787]'>Welcome to our happy meals store and bring your families and friends along and enjoy exciting offers !!!</p>
             </div>
