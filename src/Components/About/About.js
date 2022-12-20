@@ -4,7 +4,7 @@ import rightArrow from '../../assets/images/rightArrow.png';
 
 const About = () => {
     return (
-        <section className='container mx-auto lg:w-[75rem] lg:h-auto bg-white absolute lg:left-[5.25rem] lg:top-[23.938rem] border-[1px] border-[#D0D0D0] rounded-[10px]'>
+        <section className='container md:mx-auto mx-5 lg:w-[75rem] w-[350px] h-auto bg-white absolute lg:left-[5.25rem] lg:top-[23.938rem] border-[1px] border-[#D0D0D0] rounded-[10px]'>
             <div className='lg:flex mt-[2.5rem] mx-[2.5rem]'>
                 <div>
                     <img src={logo} alt="logo" className='w-[9.375rem] h-[9.375rem]' />
