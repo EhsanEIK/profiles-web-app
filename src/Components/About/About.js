@@ -7,8 +7,9 @@ const About = () => {
         <section className='container mx-auto w-[80%] relative bottom-10 bg-white border-[1px] border-[#D0D0D0] rounded-[10px]'>
             {/* part-01 */}
             <div className='md:flex grid grid-cols-5 mt-[2rem] md:mx-[2.5rem] mx-[1.5rem]'>
-                <div>
-                    <img src={logo} alt="logo" className='lg:w-[9.375rem] lg:h-[9.375rem] md:w-56 md:h-full w-16 h-16 md:mt-0 mt-2' />
+                <div className=''>
+                    <img src={logo} alt="logo" className='md:w-full h-full' />
+                    {/* <img src={logo} alt="logo" className='lgg:w-[9.375rem] lg:h-[9.375rem] md:w-56 mdd:h-full w-16 h-16 md:mt-0 mt-2' /> */}
                 </div>
                 <div className='md:flex col-span-4 md:ml-[2.5rem] ml-[1rem]'>
                     <div>

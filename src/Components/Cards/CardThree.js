@@ -1,11 +1,10 @@
 import React from 'react';
 import dentist from '../../assets/images/dentist.png';
-import bell from '../../assets/images/bell.png';
 
 const CardThree = () => {
     return (
-        <div className="card card-compact lg:w-96 w-auto bg-base-100 shadow-xl">
-            <figure><img src={dentist} alt="Dentist" /></figure>
+        <div className="w-full bg-base-100 shadow-xl">
+            <figure><img src={dentist} alt="Dentist" className='w-full' /></figure>
             <div className="card-body">
                 <h3 className="text-xl text-[#7065F0] font-semibold">Dentist</h3>
                 <h2 className="text-[1.563rem] text-[#000929] font-semibold">Saloni Dev</h2>

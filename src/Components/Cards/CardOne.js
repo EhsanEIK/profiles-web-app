@@ -4,7 +4,7 @@ import bell from '../../assets/images/bell.png';
 
 const CardOne = () => {
     return (
-        <div className="lg:w-96 w-full bg-base-100 shadow-xl">
+        <div className="w-full bg-base-100 shadow-xl">
             <figure><img src={dentist} alt="Dentist" className='w-full' /></figure>
             <div className="card-body">
                 <h3 className="text-xl text-[#7065F0] font-semibold">Dentist</h3>
