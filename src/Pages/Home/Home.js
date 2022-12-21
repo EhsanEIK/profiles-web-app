@@ -6,7 +6,7 @@ import TopHeader from '../../Components/TopHeader/TopHeader';
 
 const Home = () => {
     return (
-        <div>
+        <div className='relative'>
             <Navbar></Navbar>
             <TopHeader></TopHeader>
             <About></About>
